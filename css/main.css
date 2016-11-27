@@ -13,8 +13,10 @@ body{
 	font-family: 'open sans';
 }
 #hero{
-	text-align: center;
 	padding-top: 70px;
+}
+.heroText, .callForAction, .scrollDown{
+	text-align: center;
 }
 .heroText h2{
 	color: #525252;
@@ -34,6 +36,8 @@ body{
 }
 .heroBanner{
 	padding: 40px 0;
+	width: 640px;
+	margin:0 auto;
 }
 .cb{
 	color: #8AB5D5;
@@ -41,10 +45,57 @@ body{
 	font-weight: 600;
 	text-transform: uppercase;
 	font-style: italic;
+	min-width: 200px;
+	text-align: right;
+	display: inline-block;
 }
 .amazon{
 	color: #CFA622;
+	text-align: left;
 }
 .callForAction button{
 	background-color: #06c587;
+	color: #fff;
+	text-shadow: 0px -2px rgba(0,0,0,0.1);
+	font-size: 18px;
+	box-shadow: 0 4px 0 rgba(4,175,120,1);
+	padding: 15px 40px;
+	line-height: 30px;
+	border:none;
+	text-transform: uppercase;
+	border-radius: 4px;
+	vertical-align: middle;
+	height: 55px;
+	-moz-transition-property: box-shadow;
+    -o-transition-property: box-shadow;
+    transition-property: box-shadow;
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+.callForAction button:hover, .callForAction button:focus, .callForAction button:active{
+	text-decoration: none;
+	outline: none; 
+	box-shadow: 0 4px 0 rgba(12,140,98,1), 0px 0px 5px rgba(0,0,0,0.30);
+	-webkit-transition-property: box-shadow;
+    -moz-transition-property: box-shadow;
+    -o-transition-property: box-shadow;
+    transition-property: box-shadow;
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+.scrollDown{
+	padding-top: 30px;
+    transform: translateY(50%)
+}
+.scrollDown p{
+	color: #646464;
+	font-size: 16px;
+	margin: 7px 0;
+}
+.scrollDown a:hover, .scrollDown a:focus, .scrollDown a:active{
+	outline: none;
 }
