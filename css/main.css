@@ -1,0 +1,50 @@
+/************************************************************************
+   ___ _                          _               
+  / __\ |__   __ _ _ __ __ _  ___| |__   ___  ___ 
+ / /  | '_ \ / _` | '__/ _` |/ _ \ '_ \ / _ \/ _ \
+/ /___| | | | (_| | | | (_| |  __/ |_) |  __/  __/
+\____/|_| |_|\__,_|_|  \__, |\___|_.__/ \___|\___|
+                       |___/                      
+
+/*********************** Commenting is sexy ******************************/
+/*********************** Write your styles below *************************/
+
+body{
+	font-family: 'open sans';
+}
+#hero{
+	text-align: center;
+	padding-top: 70px;
+}
+.heroText h2{
+	color: #525252;
+	font-weight: 600;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.heroText h5{
+	color: #666;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 10px 0;
+	font-weight: 200;
+	width: 400px;
+    margin: 0 auto;
+	line-height: 25px;
+}
+.heroBanner{
+	padding: 40px 0;
+}
+.cb{
+	color: #8AB5D5;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-style: italic;
+}
+.amazon{
+	color: #CFA622;
+}
+.callForAction button{
+	background-color: #06c587;
+}
