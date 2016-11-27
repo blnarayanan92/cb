@@ -13,7 +13,7 @@ body{
 	font-family: 'open sans';
 }
 #hero{
-	padding-top: 70px;
+	padding: 70px 0;
 }
 .heroText, .callForAction, .scrollDown{
 	text-align: center;
@@ -89,7 +89,8 @@ body{
 }
 .scrollDown{
 	padding-top: 30px;
-    transform: translateY(50%)
+    -webkit-transform: translateY(50%);
+        transform: translateY(50%);
 }
 .scrollDown p{
 	color: #646464;
@@ -98,4 +99,47 @@ body{
 }
 .scrollDown a:hover, .scrollDown a:focus, .scrollDown a:active{
 	outline: none;
+}
+
+#portalStrip{
+	background-color: #FF5A59;
+	height: 180px;
+	margin-top: 40px;
+	text-align: center;
+}
+#portalStrip h4{
+	font-size: 24px;
+	color: #F6F8FC;
+	padding-top: 40px;
+}
+.portalGroup{
+	padding: 10px;
+	width: 640px;
+	margin:0 auto; 
+}
+.portalGroup li{
+	list-style: none;
+	float: left;
+	color: #F6F8FC;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 45px;
+}
+li.portalItem{
+	/*list-style: none;
+	float: left;
+	color: #F6F8FC;
+	font-size: 18px;
+	font-weight: 200;*/
+	border-radius: 30px;
+	border: 1px solid #F6F8FC;
+	padding: 10px 30px;
+	margin: 0 5px;
+	line-height: 24px;
+}
+li.filled{
+	background-color: #F6F8FC;
+	color: #0F334F;
+	font-size: 19px;
+	font-weight: 600;
 }
