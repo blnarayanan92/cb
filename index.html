@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -27,7 +28,10 @@
             <div class="scrollDown">
                 <p> Neatly integrated experience. </p>
                 <p> See how it works </p>
-                <a href="#portalStrip">
+                <a href="#portalStrip" class="visible-md visible-lg">
+                    <img src="images/banner-arrow@2x.png" width="34" height="34">
+                </a>
+                <a href="#subHero" class="visible-sm visible-xs">
                     <img src="images/banner-arrow@2x.png" width="34" height="34">
                 </a>
             </div>
@@ -45,48 +49,159 @@
             <li class="portalItem filled"> Portal </li>
         </ul>
     </section>
-    <section id="customers">
+    <section id="subHero" class="visible-md visible-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 infoImage">
+                    <div class="l-image">
+                        <img src="images/checkout@2x.png" width="320">
+                        <div> </div>
+                    </div>
+                </div>
+                <div class="col-md-6 infoDetails hidden-xs hidden-sm">
+                    <h4> Customer Portal </h4>
+                    <p> Go a step further and let your customers be in charge of their subscriptions </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="subHero" class="visible-sm visible-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 infoImage2">
+                    <div class="l-image">
+                        <img src="images/checkout@2x.png" width="320">
+                        <div> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="billing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-7 billing-l-container">
+                    <h4> Recurring billing done right </h4>
+                    <p> We've built the best practices required for every billing model </p>
+                    <ul class="billing-list">
+                        <li>
+                            <i class="fa fa-check" aria-hidden="true"> </i>
+                            <h5> Flexible pricing </h5>
+                            <p> Price your offering the way you want to, with flexible billing periods &amp; addons </p>
+                        </li>
+                        <li>
+                            <i class="fa fa-check" aria-hidden="true"> </i>
+                            <h5> Auto invoicing </h5>
+                            <p> Every time a charge is made branded invoice is sent to your customers inbox </p>
+                        </li>
+                        <li>
+                            <i class="fa fa-check" aria-hidden="true"> </i>
+                            <h5> Email notifications </h5>
+                            <p> Send automated emails to deliver value throughout your customer lifecycle. </p>
+                        </li>
+                        <li>
+                            <i class="fa fa-check" aria-hidden="true"> </i>
+                            <h5> Smart retry logic </h5>
+                            <p> Reduce failed payments by iterating and defaulting to an ideal retry logic </p>
+                        </li>
+                        <li>
+                            <i class="fa fa-check" aria-hidden="true"> </i>
+                            <h5> Built for teams </h5>
+                            <p> Make it easy for your team members to access information using role based access </p>
+                        </li>
+                        <li>
+                            <i class="fa fa-check" aria-hidden="true"> </i>
+                            <h5> Powerful integrations </h5>
+                            <p> Do more with apps and services that give you extra features and smart automation </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 testimonials">
+                    <h4> Some of our fantastic customers </h4>
+                    <div class="testimonials-item">
+                    	<p> Chargebee solves a very tough problem well. I couldn't imagine another service fulling all our needs and doing it so well. </p>
+                    	<div class="arrow-down"> </div>      	
+                    </div>
+                    <div class="testimonials-company">
+                    	<img src="images/holstee-logo@2x.png" width="40" height="40">
+                    	<span> Thomas Reggi </span>
+                    </div>
+                    <div class="testimonials-item">
+                    	<p> Chargebee solves a very tough problem well. I couldn't imagine another service fulling all our needs and doing it so well. </p>
+                    	<div class="arrow-down"> </div>   
+                    </div>
+                    <div class="testimonials-company">
+                    	<img src="images/integratedhealth-logo@2x.png" width="40" height="40">
+                    	<span> Sunil </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="customers" class="visible-md visible-lg">
         <div class="container">
             <ul>
                 <li>
-                    <img src="images/soylent-logo@2x.png" width="140" >
+                    <img src="images/soylent-logo@2x.png" width="140">
                 </li>
                 <li>
-                    <img src="images/freshdesk-logo@2x.png" width="176" >
+                    <img src="images/freshdesk-logo@2x.png" width="176">
                 </li>
                 <li>
-                    <img src="images/integratedhealthbw-logo@2x.png" width="206" >
+                    <img src="images/integratedhealthbw-logo@2x.png" width="206">
+                </li>
+                <li class="visible-lg visible-md">
+                    <img src="images/enerspace-logo@2x.png" width="167">
+                </li>
+                <li class="visible-lg">
+                    <img src="images/vinyl-logo@2x.png" width="97">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="customers" class="visible-sm visible-xs">
+        <div class="container">
+            <ul class="customers-logo">
+                <li>
+                    <img src="images/soylent-logo@2x.png" width="140">
                 </li>
                 <li>
-                    <img src="images/enerspace-logo@2x.png" width="167" >
+                    <img src="images/freshdesk-logo@2x.png" width="176">
                 </li>
                 <li>
-                    <img src="images/vinyl-logo@2x.png" width="97" >
+                    <img src="images/integratedhealthbw-logo@2x.png" width="206">
+                </li>
+                <li class="visible-lg visible-md">
+                    <img src="images/enerspace-logo@2x.png" width="167">
+                </li>
+                <li class="visible-lg">
+                    <img src="images/vinyl-logo@2x.png" width="97">
                 </li>
             </ul>
         </div>
     </section>
     <footer>
-    	<ul>
-    		<li>
-    			<a href="#">Pricing</a>
-    		</li>
-    		<li>
-    			<a href="#">Features</a>
-    		</li>
-    		<li>
-    			<a href="#">
-    				<img src="images/chargebee-logo-footer@2x.png" width="116">
-    			</a>
-    		</li>
-    		<li>
-    			<a href="#">About</a>
-    		</li>
-    		<li>
-    			<a href="#">support</a>
-    			
-    		</li>
-    	</ul>
+        <ul>
+            <li>
+                <a href="#">Pricing</a>
+            </li>
+            <li>
+                <a href="#">Features</a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/chargebee-logo-footer@2x.png" width="116">
+                </a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">support</a>
+            </li>
+        </ul>
     </footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
