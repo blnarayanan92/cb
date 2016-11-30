@@ -101,6 +101,9 @@ body{
 	outline: none;
 }
 
+
+/*Portal */
+
 #portalStrip{
 	background-color: #FF5A59;
 	height: 180px;
@@ -197,6 +200,9 @@ li.filled{
 	font-size: 20px;
 	font-weight: 200;
 }
+
+/*Billing */
+
 #billing{
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -292,6 +298,9 @@ li.filled{
 	padding-left: 4px;
 }
 
+
+/*Customer Section*/
+
 #customers{
 	background-color: rgba(39,41,47,1);
 	height: 180px;
@@ -311,6 +320,9 @@ ul.customers-logo li{
 	float: left;
 	margin: 0 10px!important;
 }
+
+/*Footer*/
+
 footer{
 	min-height: 100px;
 }
@@ -334,6 +346,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active{
 	outline: none;
 	color: #111;
 }
+
+/*Media Queries*/
 
 @media only screen and (max-width: 600px) {
 	.heroBanner{
