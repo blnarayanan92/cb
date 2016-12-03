@@ -412,23 +412,3 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active{
     	vertical-align: middle;
 	}
 }
-@media only screen and (min-width: 360px) and (max-width: 420px){
-	.heroBanner{
-		width: 320px;
-	}
-	.heroText h5{
-		width: auto;
-	}
-	.heroBanner img{
-		width: 140px;
-		height: 127px;
-	}
-	.cb{
-		font-size: 16px;
-		min-width: 80px; 
-	}
-	.amazon{
-		max-width: 80px;
-    	vertical-align: middle;
-	}
-}
